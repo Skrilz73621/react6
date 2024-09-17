@@ -1,5 +1,45 @@
 .App {
   text-align: center;
+  margin: 10px;
+}
+
+input{
+  height: 30px;
+  width: 50%;
+  margin: 10px;
+}
+
+.ul{
+  border: 5px solid black;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.ulDiv{
+  border: 5px solid rgb(255, 0, 0);
+}
+
+button{
+  width: 50%;
+  height: 40px;
+  margin: 10px;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
